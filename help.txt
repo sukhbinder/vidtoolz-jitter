@@ -1,0 +1,26 @@
+Jitter - Add jitter effect to a video using moviepy
+
+type ``vid jitter --help`` to get help
+
+CLI Options:
+Usage:
+  vid jitter [options] input_file
+
+Options:
+  input: Path to the input video file.
+  -o: Path to save the output video with the shake effect.
+  -st: Start time for the shake effect (in seconds).
+  -d: Duration for the shake effect (in seconds). Default 0.5
+
+
+Examples:
+  1. vid jitter --help`` to get help
+
+
+Examples:
+  1. vid jitter --help to get help
+
+
+Examples:
+  1. vid jitter input.mp4 -o output.mp4
+  2. vid jitter input.mp4 --help
